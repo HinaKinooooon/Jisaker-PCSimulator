@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04001CA2CEE7CB8005E7BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001C92CEE7CB8005E7BB5 /* AppDelegate.swift */; };
+		B04001CC2CEE7CB8005E7BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001CB2CEE7CB8005E7BB5 /* SceneDelegate.swift */; };
+		B04001CE2CEE7CB8005E7BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001CD2CEE7CB8005E7BB5 /* ViewController.swift */; };
+		B04001D12CEE7CB8005E7BB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B04001D02CEE7CB8005E7BB5 /* Base */; };
+		B04001D32CEE7CBA005E7BB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04001D22CEE7CBA005E7BB5 /* Assets.xcassets */; };
+		B04001D62CEE7CBA005E7BB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B04001D52CEE7CBA005E7BB5 /* Base */; };
+		B04001E12CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001E02CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift */; };
+		B04001EB2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001EA2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift */; };
+		B04001ED2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001EC2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04001DD2CEE7CBA005E7BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04001BE2CEE7CB8005E7BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04001C52CEE7CB8005E7BB5;
+			remoteInfo = "Jisaker-PCSimulator";
+		};
+		B04001E72CEE7CBA005E7BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04001BE2CEE7CB8005E7BB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04001C52CEE7CB8005E7BB5;
+			remoteInfo = "Jisaker-PCSimulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04001C62CEE7CB8005E7BB5 /* Jisaker-PCSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jisaker-PCSimulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04001C92CEE7CB8005E7BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B04001CB2CEE7CB8005E7BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B04001CD2CEE7CB8005E7BB5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B04001D02CEE7CB8005E7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B04001D22CEE7CBA005E7BB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04001D52CEE7CBA005E7BB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B04001D72CEE7CBA005E7BB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04001DC2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jisaker-PCSimulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04001E02CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jisaker_PCSimulatorTests.swift; sourceTree = "<group>"; };
+		B04001E62CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jisaker-PCSimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04001EA2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jisaker_PCSimulatorUITests.swift; sourceTree = "<group>"; };
+		B04001EC2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jisaker_PCSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04001C32CEE7CB8005E7BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001D92CEE7CBA005E7BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001E32CEE7CBA005E7BB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04001BD2CEE7CB8005E7BB5 = {
+			isa = PBXGroup;
+			children = (
+				B04001C82CEE7CB8005E7BB5 /* Jisaker-PCSimulator */,
+				B04001DF2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests */,
+				B04001E92CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests */,
+				B04001C72CEE7CB8005E7BB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04001C72CEE7CB8005E7BB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04001C62CEE7CB8005E7BB5 /* Jisaker-PCSimulator.app */,
+				B04001DC2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests.xctest */,
+				B04001E62CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04001C82CEE7CB8005E7BB5 /* Jisaker-PCSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				B04001C92CEE7CB8005E7BB5 /* AppDelegate.swift */,
+				B04001CB2CEE7CB8005E7BB5 /* SceneDelegate.swift */,
+				B04001CD2CEE7CB8005E7BB5 /* ViewController.swift */,
+				B04001CF2CEE7CB8005E7BB5 /* Main.storyboard */,
+				B04001D22CEE7CBA005E7BB5 /* Assets.xcassets */,
+				B04001D42CEE7CBA005E7BB5 /* LaunchScreen.storyboard */,
+				B04001D72CEE7CBA005E7BB5 /* Info.plist */,
+			);
+			path = "Jisaker-PCSimulator";
+			sourceTree = "<group>";
+		};
+		B04001DF2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04001E02CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift */,
+			);
+			path = "Jisaker-PCSimulatorTests";
+			sourceTree = "<group>";
+		};
+		B04001E92CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04001EA2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift */,
+				B04001EC2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift */,
+			);
+			path = "Jisaker-PCSimulatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04001C52CEE7CB8005E7BB5 /* Jisaker-PCSimulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04001F02CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulator" */;
+			buildPhases = (
+				B04001C22CEE7CB8005E7BB5 /* Sources */,
+				B04001C32CEE7CB8005E7BB5 /* Frameworks */,
+				B04001C42CEE7CB8005E7BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jisaker-PCSimulator";
+			productName = "Jisaker-PCSimulator";
+			productReference = B04001C62CEE7CB8005E7BB5 /* Jisaker-PCSimulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04001DB2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04001F32CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorTests" */;
+			buildPhases = (
+				B04001D82CEE7CBA005E7BB5 /* Sources */,
+				B04001D92CEE7CBA005E7BB5 /* Frameworks */,
+				B04001DA2CEE7CBA005E7BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04001DE2CEE7CBA005E7BB5 /* PBXTargetDependency */,
+			);
+			name = "Jisaker-PCSimulatorTests";
+			productName = "Jisaker-PCSimulatorTests";
+			productReference = B04001DC2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04001E52CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04001F62CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorUITests" */;
+			buildPhases = (
+				B04001E22CEE7CBA005E7BB5 /* Sources */,
+				B04001E32CEE7CBA005E7BB5 /* Frameworks */,
+				B04001E42CEE7CBA005E7BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04001E82CEE7CBA005E7BB5 /* PBXTargetDependency */,
+			);
+			name = "Jisaker-PCSimulatorUITests";
+			productName = "Jisaker-PCSimulatorUITests";
+			productReference = B04001E62CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04001BE2CEE7CB8005E7BB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					B04001C52CEE7CB8005E7BB5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					B04001DB2CEE7CBA005E7BB5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B04001C52CEE7CB8005E7BB5;
+					};
+					B04001E52CEE7CBA005E7BB5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = B04001C52CEE7CB8005E7BB5;
+					};
+				};
+			};
+			buildConfigurationList = B04001C12CEE7CB8005E7BB5 /* Build configuration list for PBXProject "Jisaker-PCSimulator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04001BD2CEE7CB8005E7BB5;
+			productRefGroup = B04001C72CEE7CB8005E7BB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04001C52CEE7CB8005E7BB5 /* Jisaker-PCSimulator */,
+				B04001DB2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests */,
+				B04001E52CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04001C42CEE7CB8005E7BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04001D32CEE7CBA005E7BB5 /* Assets.xcassets in Resources */,
+				B04001D62CEE7CBA005E7BB5 /* Base in Resources */,
+				B04001D12CEE7CB8005E7BB5 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001DA2CEE7CBA005E7BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001E42CEE7CBA005E7BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04001C22CEE7CB8005E7BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04001CE2CEE7CB8005E7BB5 /* ViewController.swift in Sources */,
+				B04001CA2CEE7CB8005E7BB5 /* AppDelegate.swift in Sources */,
+				B04001CC2CEE7CB8005E7BB5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001D82CEE7CBA005E7BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04001E12CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04001E22CEE7CBA005E7BB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04001ED2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift in Sources */,
+				B04001EB2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04001DE2CEE7CBA005E7BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04001C52CEE7CB8005E7BB5 /* Jisaker-PCSimulator */;
+			targetProxy = B04001DD2CEE7CBA005E7BB5 /* PBXContainerItemProxy */;
+		};
+		B04001E82CEE7CBA005E7BB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04001C52CEE7CB8005E7BB5 /* Jisaker-PCSimulator */;
+			targetProxy = B04001E72CEE7CBA005E7BB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04001CF2CEE7CB8005E7BB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04001D02CEE7CB8005E7BB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B04001D42CEE7CBA005E7BB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04001D52CEE7CBA005E7BB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04001EE2CEE7CBA005E7BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04001EF2CEE7CBA005E7BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04001F12CEE7CBA005E7BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jisaker-PCSimulator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04001F22CEE7CBA005E7BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Jisaker-PCSimulator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B04001F42CEE7CBA005E7BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jisaker-PCSimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jisaker-PCSimulator";
+			};
+			name = Debug;
+		};
+		B04001F52CEE7CBA005E7BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jisaker-PCSimulator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Jisaker-PCSimulator";
+			};
+			name = Release;
+		};
+		B04001F72CEE7CBA005E7BB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jisaker-PCSimulator";
+			};
+			name = Debug;
+		};
+		B04001F82CEE7CBA005E7BB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MyApp.Jisaker-PCSimulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Jisaker-PCSimulator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04001C12CEE7CB8005E7BB5 /* Build configuration list for PBXProject "Jisaker-PCSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04001EE2CEE7CBA005E7BB5 /* Debug */,
+				B04001EF2CEE7CBA005E7BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04001F02CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04001F12CEE7CBA005E7BB5 /* Debug */,
+				B04001F22CEE7CBA005E7BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04001F32CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04001F42CEE7CBA005E7BB5 /* Debug */,
+				B04001F52CEE7CBA005E7BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04001F62CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04001F72CEE7CBA005E7BB5 /* Debug */,
+				B04001F82CEE7CBA005E7BB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B04001BE2CEE7CB8005E7BB5 /* Project object */;
+}
