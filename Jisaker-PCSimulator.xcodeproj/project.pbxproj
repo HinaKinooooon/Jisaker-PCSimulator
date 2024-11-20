@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		284755D04F577E8ACCF0053D /* Pods_Jisaker_PCSimulator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E29F5E02FF7C563E77AB03B /* Pods_Jisaker_PCSimulator.framework */; };
+		52BC1F7629CEBD1354BDEF7D /* Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F59C3CAE58E938176CBFEDC /* Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework */; };
 		B04001CA2CEE7CB8005E7BB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001C92CEE7CB8005E7BB5 /* AppDelegate.swift */; };
 		B04001CC2CEE7CB8005E7BB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001CB2CEE7CB8005E7BB5 /* SceneDelegate.swift */; };
 		B04001CE2CEE7CB8005E7BB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001CD2CEE7CB8005E7BB5 /* ViewController.swift */; };
@@ -16,6 +18,12 @@
 		B04001E12CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001E02CEE7CBA005E7BB5 /* Jisaker_PCSimulatorTests.swift */; };
 		B04001EB2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001EA2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift */; };
 		B04001ED2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001EC2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift */; };
+		B04001FB2CEE805C005E7BB5 /* PCPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001FA2CEE805C005E7BB5 /* PCPart.swift */; };
+		B04001FD2CEE82AD005E7BB5 /* EditPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001FC2CEE82AD005E7BB5 /* EditPartViewController.swift */; };
+		B04001FF2CEE886B005E7BB5 /* PCPartSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */; };
+		B04002012CEE9550005E7BB5 /* PartCategoryViewContoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */; };
+		B04002032CEEA57E005E7BB5 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */; };
+		EC6F5B746F3F465F2D26B3CD /* Pods_Jisaker_PCSimulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD1F9FAE9BAC380DE6A33AF /* Pods_Jisaker_PCSimulatorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FD1F9FAE9BAC380DE6A33AF /* Pods_Jisaker_PCSimulatorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jisaker_PCSimulatorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F59C3CAE58E938176CBFEDC /* Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD3629A466CD725C193DF7A /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.debug.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C7893FD614703DB84550229 /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.release.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E29F5E02FF7C563E77AB03B /* Pods_Jisaker_PCSimulator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jisaker_PCSimulator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04001C62CEE7CB8005E7BB5 /* Jisaker-PCSimulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jisaker-PCSimulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04001C92CEE7CB8005E7BB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B04001CB2CEE7CB8005E7BB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,15 @@
 		B04001E62CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jisaker-PCSimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04001EA2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jisaker_PCSimulatorUITests.swift; sourceTree = "<group>"; };
 		B04001EC2CEE7CBA005E7BB5 /* Jisaker_PCSimulatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jisaker_PCSimulatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B04001FA2CEE805C005E7BB5 /* PCPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPart.swift; sourceTree = "<group>"; };
+		B04001FC2CEE82AD005E7BB5 /* EditPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPartViewController.swift; sourceTree = "<group>"; };
+		B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPartSelectionViewController.swift; sourceTree = "<group>"; };
+		B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartCategoryViewContoroller.swift; sourceTree = "<group>"; };
+		B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		BDC0273536DD8D886737998D /* Pods-Jisaker-PCSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulatorTests/Pods-Jisaker-PCSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2EEE1DE323A9FBB6F0CE5AC /* Pods-Jisaker-PCSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator.debug.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator.debug.xcconfig"; sourceTree = "<group>"; };
+		EEBB15509A6B68DAB36993DC /* Pods-Jisaker-PCSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator.release.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator.release.xcconfig"; sourceTree = "<group>"; };
+		F533547E1C5860C18667228F /* Pods-Jisaker-PCSimulatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulatorTests.debug.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulatorTests/Pods-Jisaker-PCSimulatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				284755D04F577E8ACCF0053D /* Pods_Jisaker_PCSimulator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC6F5B746F3F465F2D26B3CD /* Pods_Jisaker_PCSimulatorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52BC1F7629CEBD1354BDEF7D /* Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22AAC154FC82ED9CE583AC23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2EEE1DE323A9FBB6F0CE5AC /* Pods-Jisaker-PCSimulator.debug.xcconfig */,
+				EEBB15509A6B68DAB36993DC /* Pods-Jisaker-PCSimulator.release.xcconfig */,
+				3FD3629A466CD725C193DF7A /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.debug.xcconfig */,
+				5C7893FD614703DB84550229 /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.release.xcconfig */,
+				F533547E1C5860C18667228F /* Pods-Jisaker-PCSimulatorTests.debug.xcconfig */,
+				BDC0273536DD8D886737998D /* Pods-Jisaker-PCSimulatorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B04001BD2CEE7CB8005E7BB5 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B04001DF2CEE7CBA005E7BB5 /* Jisaker-PCSimulatorTests */,
 				B04001E92CEE7CBA005E7BB5 /* Jisaker-PCSimulatorUITests */,
 				B04001C72CEE7CB8005E7BB5 /* Products */,
+				22AAC154FC82ED9CE583AC23 /* Pods */,
+				FA5CD1D94B4FF0CF201F2746 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +146,11 @@
 				B04001D22CEE7CBA005E7BB5 /* Assets.xcassets */,
 				B04001D42CEE7CBA005E7BB5 /* LaunchScreen.storyboard */,
 				B04001D72CEE7CBA005E7BB5 /* Info.plist */,
+				B04001FA2CEE805C005E7BB5 /* PCPart.swift */,
+				B04001FC2CEE82AD005E7BB5 /* EditPartViewController.swift */,
+				B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */,
+				B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */,
+				B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */,
 			);
 			path = "Jisaker-PCSimulator";
 			sourceTree = "<group>";
@@ -127,6 +172,16 @@
 			path = "Jisaker-PCSimulatorUITests";
 			sourceTree = "<group>";
 		};
+		FA5CD1D94B4FF0CF201F2746 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E29F5E02FF7C563E77AB03B /* Pods_Jisaker_PCSimulator.framework */,
+				3F59C3CAE58E938176CBFEDC /* Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests.framework */,
+				0FD1F9FAE9BAC380DE6A33AF /* Pods_Jisaker_PCSimulatorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04001F02CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulator" */;
 			buildPhases = (
+				F9B0B6AFB01BE09EE325739D /* [CP] Check Pods Manifest.lock */,
 				B04001C22CEE7CB8005E7BB5 /* Sources */,
 				B04001C32CEE7CB8005E7BB5 /* Frameworks */,
 				B04001C42CEE7CB8005E7BB5 /* Resources */,
+				99091F8F7FF5A80B2BD3FE17 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04001F32CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorTests" */;
 			buildPhases = (
+				3F93C1AEF481F8F5D152A877 /* [CP] Check Pods Manifest.lock */,
 				B04001D82CEE7CBA005E7BB5 /* Sources */,
 				B04001D92CEE7CBA005E7BB5 /* Frameworks */,
 				B04001DA2CEE7CBA005E7BB5 /* Resources */,
@@ -169,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B04001F62CEE7CBA005E7BB5 /* Build configuration list for PBXNativeTarget "Jisaker-PCSimulatorUITests" */;
 			buildPhases = (
+				983CCF7D0EB927B3FB3E0D42 /* [CP] Check Pods Manifest.lock */,
 				B04001E22CEE7CBA005E7BB5 /* Sources */,
 				B04001E32CEE7CBA005E7BB5 /* Frameworks */,
 				B04001E42CEE7CBA005E7BB5 /* Resources */,
+				104AB8BE53105DDB5169FE85 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,12 +313,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		104AB8BE53105DDB5169FE85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F93C1AEF481F8F5D152A877 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jisaker-PCSimulatorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		983CCF7D0EB927B3FB3E0D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99091F8F7FF5A80B2BD3FE17 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9B0B6AFB01BE09EE325739D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jisaker-PCSimulator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B04001C22CEE7CB8005E7BB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B04001CE2CEE7CB8005E7BB5 /* ViewController.swift in Sources */,
+				B04002032CEEA57E005E7BB5 /* ConfigurationViewController.swift in Sources */,
+				B04001FF2CEE886B005E7BB5 /* PCPartSelectionViewController.swift in Sources */,
+				B04001FB2CEE805C005E7BB5 /* PCPart.swift in Sources */,
+				B04002012CEE9550005E7BB5 /* PartCategoryViewContoroller.swift in Sources */,
+				B04001FD2CEE82AD005E7BB5 /* EditPartViewController.swift in Sources */,
 				B04001CA2CEE7CB8005E7BB5 /* AppDelegate.swift in Sources */,
 				B04001CC2CEE7CB8005E7BB5 /* SceneDelegate.swift in Sources */,
 			);
@@ -437,11 +605,13 @@
 		};
 		B04001F12CEE7CBA005E7BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EEE1DE323A9FBB6F0CE5AC /* Pods-Jisaker-PCSimulator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jisaker-PCSimulator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,11 +634,13 @@
 		};
 		B04001F22CEE7CBA005E7BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEBB15509A6B68DAB36993DC /* Pods-Jisaker-PCSimulator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Jisaker-PCSimulator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -491,6 +663,7 @@
 		};
 		B04001F42CEE7CBA005E7BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F533547E1C5860C18667228F /* Pods-Jisaker-PCSimulatorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +683,7 @@
 		};
 		B04001F52CEE7CBA005E7BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDC0273536DD8D886737998D /* Pods-Jisaker-PCSimulatorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -529,6 +703,7 @@
 		};
 		B04001F72CEE7CBA005E7BB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FD3629A466CD725C193DF7A /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +721,7 @@
 		};
 		B04001F82CEE7CBA005E7BB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C7893FD614703DB84550229 /* Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

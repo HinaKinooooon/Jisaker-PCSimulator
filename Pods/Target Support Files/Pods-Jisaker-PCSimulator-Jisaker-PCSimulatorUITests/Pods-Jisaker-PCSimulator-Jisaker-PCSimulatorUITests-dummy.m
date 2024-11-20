@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests
+@end

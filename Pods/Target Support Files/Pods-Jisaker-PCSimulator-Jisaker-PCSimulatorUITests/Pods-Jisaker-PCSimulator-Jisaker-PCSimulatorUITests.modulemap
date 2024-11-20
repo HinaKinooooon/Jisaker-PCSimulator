@@ -1,0 +1,6 @@
+framework module Pods_Jisaker_PCSimulator_Jisaker_PCSimulatorUITests {
+  umbrella header "Pods-Jisaker-PCSimulator-Jisaker-PCSimulatorUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
