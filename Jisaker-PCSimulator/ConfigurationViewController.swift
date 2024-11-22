@@ -32,4 +32,3 @@ class ConfigurationViewController: UITableViewController {
         return cell
     }
 }
-
