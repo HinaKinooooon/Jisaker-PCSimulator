@@ -14,10 +14,33 @@ class PCPartSelectionViewController: UITableViewController {
         
         // ナビゲーションバーのタイトルをカテゴリ名に設定
         self.title = selectedCategory
-        
+
+        // 追加ボタンをナビゲーションバーに追加
+        let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPart))
+        navigationItem.rightBarButtonItem = addButton
+
         // 選択されたカテゴリに応じたパーツを取得
         pcParts = fetchParts(for: selectedCategory)
     }
+
+    // プラスボタンをタップした時の処理
+    @objc func addPart() {
+        if let addPartVC = storyboard?.instantiateViewController(withIdentifier: "AddPartViewController") as? AddPartViewController {
+            // パーツの種類（カテゴリ）を渡す
+            addPartVC.selectedCategory = selectedCategory
+            
+            // 遷移（モーダル表示）
+            navigationController?.pushViewController(addPartVC, animated: true)
+        }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // パーツリストを再取得
+        pcParts = fetchParts(for: selectedCategory)
+        tableView.reloadData()
+    }
+
     
     // Realmからパーツを取得
     func fetchParts(for category: String) -> [PCPart] {
@@ -54,3 +77,4 @@ class PCPartSelectionViewController: UITableViewController {
         }
     }
 }
+

@@ -23,6 +23,7 @@
 		B04001FF2CEE886B005E7BB5 /* PCPartSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */; };
 		B04002012CEE9550005E7BB5 /* PartCategoryViewContoroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */; };
 		B04002032CEEA57E005E7BB5 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */; };
+		B0B44DC92CFCAF0E003CFBC6 /* AddPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B44DC82CFCAF0E003CFBC6 /* AddPartViewController.swift */; };
 		EC6F5B746F3F465F2D26B3CD /* Pods_Jisaker_PCSimulatorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD1F9FAE9BAC380DE6A33AF /* Pods_Jisaker_PCSimulatorTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PCPartSelectionViewController.swift; sourceTree = "<group>"; };
 		B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartCategoryViewContoroller.swift; sourceTree = "<group>"; };
 		B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		B0B44DC82CFCAF0E003CFBC6 /* AddPartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPartViewController.swift; sourceTree = "<group>"; };
 		BDC0273536DD8D886737998D /* Pods-Jisaker-PCSimulatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulatorTests.release.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulatorTests/Pods-Jisaker-PCSimulatorTests.release.xcconfig"; sourceTree = "<group>"; };
 		D2EEE1DE323A9FBB6F0CE5AC /* Pods-Jisaker-PCSimulator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator.debug.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator.debug.xcconfig"; sourceTree = "<group>"; };
 		EEBB15509A6B68DAB36993DC /* Pods-Jisaker-PCSimulator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jisaker-PCSimulator.release.xcconfig"; path = "Target Support Files/Pods-Jisaker-PCSimulator/Pods-Jisaker-PCSimulator.release.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				B04001FE2CEE886B005E7BB5 /* PCPartSelectionViewController.swift */,
 				B04002002CEE9550005E7BB5 /* PartCategoryViewContoroller.swift */,
 				B04002022CEEA57E005E7BB5 /* ConfigurationViewController.swift */,
+				B0B44DC82CFCAF0E003CFBC6 /* AddPartViewController.swift */,
 			);
 			path = "Jisaker-PCSimulator";
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				B04002012CEE9550005E7BB5 /* PartCategoryViewContoroller.swift in Sources */,
 				B04001FD2CEE82AD005E7BB5 /* EditPartViewController.swift in Sources */,
 				B04001CA2CEE7CB8005E7BB5 /* AppDelegate.swift in Sources */,
+				B0B44DC92CFCAF0E003CFBC6 /* AddPartViewController.swift in Sources */,
 				B04001CC2CEE7CB8005E7BB5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
